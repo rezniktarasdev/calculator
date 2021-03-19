@@ -1,0 +1,30 @@
+.my_calculator {
+   width: 500px;
+   margin: 0 auto;
+   text-align: center;
+   background-color: blueviolet;
+   padding: 20px;
+   border: 1px solid black;
+}
+
+.my_calculator .operations_block button {
+   height: 40px;
+   width: 40px;
+   margin: 20px;
+}
+
+.inputs_block,
+.input_block {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+
+.input_block {
+   flex-direction: column;
+
+}
+
+.input_block label {
+   padding-bottom: 15px;
+}
